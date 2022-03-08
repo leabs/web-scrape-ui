@@ -1,0 +1,22 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#url {
+    width: 100%;
+}
+
+.output-box-title {
+    margin-bottom: 20px;
+    color: grey;
+}
+
+.output-result-single {
+    padding: 5px;
+}
+
+#selector-container {
+    display: none;
+}
