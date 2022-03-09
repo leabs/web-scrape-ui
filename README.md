@@ -1,6 +1,8 @@
+[https://web-scrape-ui.herokuapp.com/](https://web-scrape-ui.herokuapp.com/)
+
 # web-scrape-ui
 
-A simple web UI that allows a user to scrape website data. [https://web-scrape-ui.herokuapp.com/](https://web-scrape-ui.herokuapp.com/)
+A simple web UI that allows a user to scrape website data.
 
 ### Requirements
 
