@@ -22,12 +22,14 @@
   </head>
   <body>
     <div class="container col-xl-10 col-xxl-8 px-4 py-5">
-      <div class="row align-items-center g-lg-5 py-5">
+      <div class="row align-items-center g-lg-5 pb-5">
         <div class="col-lg-6 text-center text-lg-start">
           <h1 class="display-4 fw-bold lh-1 mb-3">Scrape Scripter</h1>
           <p class="col-lg-10 fs-4">
             Hard name, easy process. Scrape data from websites using this online
-            tool. No need to use command line and fiddle with scripts.
+            tool. No need to use command line or fiddle with scripts. Just fill
+            in the website you want (starting with https://) and the data you
+            want to scrape and let the magic happen.
           </p>
         </div>
         <div class="col-md-10 mx-auto col-lg-6 input-box">
@@ -87,11 +89,9 @@
             >
           </form>
         </div>
+        <hr />
+        <code><div id="output-box" class="p-2"></div></code>
       </div>
-    </div>
-    <div class="container">
-      <hr />
-      <div id="output-box" class="p-2"></div>
     </div>
 
     <script src="/static/script.js" type="text/javascript"></script>
