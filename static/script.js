@@ -22,7 +22,7 @@ function show_results(results, url) {
         Results for <b>${url}</b>:
     </div>
     <div class="output-result-container">
-    <button id="copy" type="button" onclick="copyEvent('output-copy')">
+    <button id="copy" type="button" onclick="copyEvent('output-copy')" class="btn btn-outline-dark btn-sm">
         Copy
     </button>
         <div id="output-copy">
