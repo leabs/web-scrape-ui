@@ -18,6 +18,7 @@ function show_results(results, url) {
   });
 
   output_str = `
+    <hr />
     <div class="output-box-title">
         Results for <b>${url}</b>:
     </div>
