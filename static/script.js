@@ -22,10 +22,12 @@ function show_results(results, url) {
         Results for <b>${url}</b>:
     </div>
     <div class="output-result-container">
-    <button id="copy" type="button" onclick="copyEvent('output-box')">
+    <button id="copy" type="button" onclick="copyEvent('output-copy')">
         Copy
     </button>
-        ${output_str}
+        <div id="output-copy">
+            ${output_str}
+        </div>
     </div>`;
 
   result_box = document.querySelector("#output-box");
